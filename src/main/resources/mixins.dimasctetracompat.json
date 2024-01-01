@@ -1,0 +1,13 @@
+{
+    "required": true,
+    "package": "com.accbdd.mixins",
+    "compatibilityLevel": "JAVA_17",
+    "refmap": "dimasctetracompat.refmap.json",
+    "mixins" : [
+        "MixinBlueSkiesPlayerHook"
+    ],
+    "client": [
+
+    ],
+    "minVersion": "0.8"
+}

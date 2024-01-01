@@ -93,12 +93,16 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
     // Put repositories for dependencies here
+    flatDir {
+        dirs "C:\\Users\\harris\\Documents\\Development\\libs"
+    }
 }
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.19.2-43.3.0'
-
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+
+    compileOnly fg.deobf('com.legacy.blue_skies:blue_skies:1.19.2-1.3.20')
 }
 
 mixin {
