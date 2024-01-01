@@ -15,7 +15,7 @@ import net.minecraft.world.level.block.state.BlockState;
 @Mixin(PlayerHooks.class)
 public class MixinBlueSkiesPlayerHook {
 
-    @Inject(method = "isNerfableTool", at = @At("HEAD"))
+    @Inject(method = "isNerfableTool", at = @At("HEAD"), remap=false)
     protected void checkIfBlueSkiesTetraTool(@Nullable ItemStack stack, @Nullable BlockState state, CallbackInfo ci) {
         System.out.print(stack.serializeNBT());
     }
