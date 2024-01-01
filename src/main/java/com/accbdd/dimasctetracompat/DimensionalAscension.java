@@ -1,11 +1,5 @@
 package com.accbdd.dimasctetracompat;
 
-import org.slf4j.Logger;
-
-import com.mojang.logging.LogUtils;
-
-import net.minecraft.client.Minecraft;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -15,7 +9,6 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.registries.ForgeRegistries;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(DimensionalAscension.MODID)
@@ -24,7 +17,7 @@ public class DimensionalAscension
     // Define mod id in a common place for everything to reference
     public static final String MODID = "dimasctetracompat";
     // Directly reference a slf4j logger
-    private static final Logger LOGGER = LogUtils.getLogger();
+
 
     public DimensionalAscension()
     {

@@ -33,3 +33,10 @@ Assorted Tetra effects and some mixins for compatibility and fun.
     versionRange="[1.3.20,)"
     ordering="AFTER"
     side="BOTH"
+
+[[dependencies.dimasctetracompat]]
+    modId="tetra"
+    mandatory=true
+    versionRange="[5.6.0,)"
+    ordering="AFTER"
+    side="BOTH"
