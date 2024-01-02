@@ -1,0 +1,27 @@
+{
+    "key": "dusk",
+    "category": "wood",
+    "primary": 3,
+    "secondary": 1.3,
+    "tertiary": 6,
+    "durability": 45,
+    "integrityCost": 1,
+    "integrityGain": 4,
+    "magicCapacity": 90,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 2,
+    "tints": {
+        "glyph": "563363",
+        "texture": "563363"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [ "blue_skies:dusk_planks" ]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:gold"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "key": "bluebright",
+    "category": "wood",
+    "primary": 3,
+    "secondary": 1.7,
+    "tertiary": 6,
+    "durability": 59,
+    "integrityCost": 1,
+    "integrityGain": 4,
+    "magicCapacity": 90,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 2,
+    "tints": {
+        "glyph": "5d6c99",
+        "texture": "5d6c99"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [ "blue_skies:bluebright_planks" ]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:gold"
+    }
+}

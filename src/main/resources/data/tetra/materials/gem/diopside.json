@@ -1,0 +1,27 @@
+{
+    "key": "diopside",
+    "category": "gem",
+    "primary": 8,
+    "secondary": 2.9,
+    "tertiary": 0,
+    "durability": 1661,
+    "integrityCost": 2,
+    "integrityGain": 2,
+    "magicCapacity": 80,
+    "toolLevel": "minecraft:diamond",
+    "toolEfficiency": 8,
+    "tints": {
+        "glyph": "00c013",
+        "texture": "00c013"
+    },
+    "textures": [
+        "shiny",
+        "default"
+    ],
+    "material": {
+        "items": [ "blue_skies:diopside" ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:stone"
+    }
+}

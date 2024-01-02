@@ -1,0 +1,27 @@
+{
+    "key": "maple",
+    "category": "wood",
+    "primary": 3,
+    "secondary": 2.2,
+    "tertiary": 6,
+    "durability": 131,
+    "integrityCost": 1,
+    "integrityGain": 4,
+    "magicCapacity": 90,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 2,
+    "tints": {
+        "glyph": "a75947",
+        "texture": "a75947"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [ "blue_skies:maple_planks" ]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:gold"
+    }
+}

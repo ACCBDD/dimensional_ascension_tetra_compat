@@ -1,0 +1,27 @@
+{
+    "key": "moonstone",
+    "category": "gem",
+    "primary": 4,
+    "secondary": 3.7,
+    "tertiary": 0,
+    "durability": 200,
+    "integrityCost": 0,
+    "integrityGain": 4,
+    "magicCapacity": 90,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 4,
+    "tints": {
+        "glyph": "e3f0f6",
+        "texture": "e3f0f6"
+    },
+    "textures": [
+        "shiny",
+        "default"
+    ],
+    "material": {
+        "items": [ "blue_skies:moonstone" ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:stone"
+    }
+}

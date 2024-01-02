@@ -1,0 +1,27 @@
+{
+    "key": "pyrope",
+    "category": "gem",
+    "primary": 4.7,
+    "secondary": 2.2,
+    "tertiary": 0,
+    "durability": 200,
+    "integrityCost": 1,
+    "integrityGain": 5,
+    "magicCapacity": 90,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 5,
+    "tints": {
+        "glyph": "ef3f67",
+        "texture": "ef3f67"
+    },
+    "textures": [
+        "shiny",
+        "default"
+    ],
+    "material": {
+        "items": [ "blue_skies:pyrope_gem" ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:stone"
+    }
+}

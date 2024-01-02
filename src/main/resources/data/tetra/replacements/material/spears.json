@@ -1,0 +1,73 @@
+[
+    {
+        "predicate": {
+            "items": [ "blue_skies:bluebright_spear" ]
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": [ "single/spearhead", "spearhead/moonstone" ],
+            "single/handle": [ "single/light_handle", "light_handle/bluebright" ]
+        }
+    },
+    {
+        "predicate": {
+            "items": [ "blue_skies:starlit_spear" ]
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": [ "single/spearhead", "spearhead/moonstone" ],
+            "single/handle": [ "single/light_handle", "light_handle/starlit" ]
+        }
+    },
+    {
+        "predicate": {
+            "items": [ "blue_skies:frostbright_spear" ]
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": [ "single/spearhead", "spearhead/moonstone" ],
+            "single/handle": [ "single/light_handle", "light_handle/frostbright" ]
+        }
+    },
+    {
+        "predicate": {
+            "items": [ "blue_skies:lunar_spear" ]
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": [ "single/spearhead", "spearhead/moonstone" ],
+            "single/handle": [ "single/light_handle", "light_handle/lunar_wood" ]
+        }
+    },
+    {
+        "predicate": {
+            "items": [ "blue_skies:dusk_spear" ]
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": [ "single/spearhead", "spearhead/moonstone" ],
+            "single/handle": [ "single/light_handle", "light_handle/dusk" ]
+        }
+    },
+    {
+        "predicate": {
+            "items": [ "blue_skies:maple_spear" ]
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": [ "single/spearhead", "spearhead/moonstone" ],
+            "single/handle": [ "single/light_handle", "light_handle/maple" ]
+        }
+    },
+    {
+        "predicate": {
+            "items": [ "blue_skies:cherry_spear" ]
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": [ "single/spearhead", "spearhead/moonstone" ],
+            "single/handle": [ "single/light_handle", "light_handle/cherry" ]
+        }
+    },
+
+]

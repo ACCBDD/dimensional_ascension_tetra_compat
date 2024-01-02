@@ -1,0 +1,24 @@
+{
+    "key" : "ventium",
+    "category" : "metal",
+    "primary" : 5.5,
+    "secondary" : 4.5,
+    "tertiary" : 4,
+    "durability" : 200,
+    "integrityCost" : 2,
+    "integrityGain" : 5,
+    "magicCapacity" : 90,
+    "toolLevel" : "minecraft:iron",
+    "toolEfficiency" : 6,
+    "tints" : {
+        "glyph" : "CE2D3A",
+        "texture" : "CE2D3A"
+    },
+    "textures" : [ "metal", "default" ],
+    "material" : {
+        "items" : [ "blue_skies:ventium_ingot" ]
+    },
+    "requiredTools" : {
+        "hammer_dig" : "minecraft:stone"
+    }
+}
