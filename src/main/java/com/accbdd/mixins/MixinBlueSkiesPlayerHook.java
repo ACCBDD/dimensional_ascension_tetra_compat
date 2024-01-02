@@ -1,8 +1,8 @@
 package com.accbdd.mixins;
 
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.List;
 
 import javax.annotation.Nullable;
 
@@ -10,6 +10,7 @@ import org.slf4j.Logger;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 
+import com.accbdd.dimasctetracompat.DimensionalAscensionConfig;
 import com.legacy.blue_skies.asm_hooks.PlayerHooks;
 import com.mojang.logging.LogUtils;
 
@@ -31,8 +32,8 @@ public class MixinBlueSkiesPlayerHook {
     private static final Set<Item> NERFED_ITEMS_CACHE = new HashSet<Item>();
     private static final String[] NERFABLE_ITEM_NAMES = new String[]{"axe", "pickaxe", "shovel", "hoe", "hammer", "mattock", "pickadze", "excavator", "kama", "scythe", "sword", "dagger", "cleaver", "rapier", "saber", "scabbard", "scimitar", "shortsword", "greatsword", "katana", "spear"};
 
-    private static final String[] BLUE_SKIES_MATERIALS = new String[]{"falsite","ventium","horizonite","diopside","charoite","moonstone","pyrope","aquite","turquoise_stone","lunar_stone","bluebright","lunar_wood","frostbright","maple","starlit","dusk","cherry"};
-    private static final Set<String> BLUE_SKIES_MATERIALS_SET = new HashSet<>(Arrays.asList(BLUE_SKIES_MATERIALS));
+    private static final List<? extends String> BLUE_SKIES_MATERIALS = DimensionalAscensionConfig.BLUE_SKIES_MATERIALS.get();
+    private static final Set<String> BLUE_SKIES_MATERIALS_SET = new HashSet<>(BLUE_SKIES_MATERIALS);
 
     @Overwrite(remap = false)
     public static synchronized boolean isNerfableTool(@Nullable ItemStack stack, @Nullable BlockState state) {
