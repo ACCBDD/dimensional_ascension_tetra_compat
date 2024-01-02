@@ -21,7 +21,7 @@ import javax.annotation.ParametersAreNonnullByDefault;
 public class TetraEffectPredicate extends ItemPredicate {
     private static final ItemPredicate ANY = new TetraEffectPredicate(null);
 	private static final String JSON_EFFECT_KEY = "effect";
-	private static final ResourceLocation ID = new ResourceLocation("dimasctetracompat:has_effect");
+	private static final ResourceLocation ID = new ResourceLocation("dimasctetracompat", "has_effect");
 
 	@Nullable
 	private final ItemEffect effect;

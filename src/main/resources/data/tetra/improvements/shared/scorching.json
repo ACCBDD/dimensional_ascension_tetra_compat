@@ -4,7 +4,6 @@
         "level": 1,
         "effects": {
             "dimasctetracompat:scorching": 1
-        },
-        "textured": false
+        }
     }
 ]

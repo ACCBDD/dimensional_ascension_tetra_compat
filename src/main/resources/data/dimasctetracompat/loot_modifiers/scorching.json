@@ -15,11 +15,7 @@
                             {
                                 "condition": "minecraft:inverted",
                                 "term": {
-                                    "condition": "minecraft:match_tool",
-                                    "predicate": {
-                                        "type": "dimasctetracompat:has_effect",
-                                        "effect": "dimasctetracompat:scorching"
-                                    }
+                                    "condition": "dimasctetracompat:has_scorching"
                                 }
                             }
                         ]

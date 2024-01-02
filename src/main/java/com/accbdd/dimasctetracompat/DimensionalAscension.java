@@ -1,6 +1,7 @@
 package com.accbdd.dimasctetracompat;
 
 import com.accbdd.dimasctetracompat.loot.HasBlockEntity;
+import com.accbdd.dimasctetracompat.loot.HasScorching;
 import com.accbdd.dimasctetracompat.loot.modifier.ScorchingLootModifier;
 import com.mojang.serialization.Codec;
 
@@ -36,6 +37,7 @@ public class DimensionalAscension
     //loot condition for safer autosmelt (don't smelt block entities)
     public static final DeferredRegister<LootItemConditionType> LOOT_CONDITION_TYPES = DeferredRegister.create(Registry.LOOT_CONDITION_TYPE.key(), MODID);
     public static final RegistryObject<LootItemConditionType> HAS_BLOCK_ENTITY = LOOT_CONDITION_TYPES.register("has_block_entity", () -> new LootItemConditionType(new HasBlockEntity.Serializer()));
+    public static final RegistryObject<LootItemConditionType> HAS_SCORCHING = LOOT_CONDITION_TYPES.register("has_scorching", () -> new LootItemConditionType(new HasScorching.Serializer()));
 
     public DimensionalAscension()
     {
