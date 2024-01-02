@@ -1,0 +1,58 @@
+{
+    "type": "dimasctetracompat:scorching",
+    "conditions": [
+        {
+            "condition": "minecraft:alternative",
+            "terms": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:alternative",
+                        "terms": [
+                            {
+                                "condition": "dimasctetracompat:has_block_entity"
+                            },
+                            {
+                                "condition": "minecraft:inverted",
+                                "term": {
+                                    "condition": "minecraft:match_tool",
+                                    "predicate": {
+                                        "type": "dimasctetracompat:has_effect",
+                                        "effect": "dimasctetracompat:scorching"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:alternative",
+                        "terms": [
+                            {
+                                "condition": "minecraft:inverted",
+                                "term": {
+                                    "condition": "minecraft:damage_source_properties",
+                                    "predicate": {
+                                        "tetrapak:weapon": {
+                                            "type": "dimasctetracompat:has_effect",
+                                            "effect": "dimasctetracompat:scorching"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "type": "minecraft:player"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

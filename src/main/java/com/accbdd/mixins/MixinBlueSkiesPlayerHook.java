@@ -6,13 +6,11 @@ import java.util.List;
 
 import javax.annotation.Nullable;
 
-import org.slf4j.Logger;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 
 import com.accbdd.dimasctetracompat.DimensionalAscensionConfig;
 import com.legacy.blue_skies.asm_hooks.PlayerHooks;
-import com.mojang.logging.LogUtils;
 
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.resources.ResourceLocation;
@@ -26,8 +24,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 @Mixin(PlayerHooks.class)
 public class MixinBlueSkiesPlayerHook {
-
-    private static final Logger LOGGER = LogUtils.getLogger();
 
     private static final Set<Item> NERFED_ITEMS_CACHE = new HashSet<Item>();
     private static final String[] NERFABLE_ITEM_NAMES = new String[]{"axe", "pickaxe", "shovel", "hoe", "hammer", "mattock", "pickadze", "excavator", "kama", "scythe", "sword", "dagger", "cleaver", "rapier", "saber", "scabbard", "scimitar", "shortsword", "greatsword", "katana", "spear"};
