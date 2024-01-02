@@ -46,10 +46,8 @@ public class MixinBlueSkiesPlayerHook {
         Item item = stack.getItem();
         ResourceLocation registryName = ForgeRegistries.ITEMS.getKey(item);
         if (registryName != null && "blue_skies".equals(registryName.getNamespace())) {
-            LOGGER.info("blue skies tool");
             return false;
         } else if (registryName != null && "tetra".equals(registryName.getNamespace())) {
-            LOGGER.info("tetra tool detected");
             CompoundTag nbt = (CompoundTag) stack.serializeNBT().get("tag");
             switch (registryName.toString()) {
                 case "tetra:modular_double":
@@ -66,15 +64,15 @@ public class MixinBlueSkiesPlayerHook {
                     }
                     return true;
                 case "tetra:modular_single":
-                    String head = nbt.get("single/head").toString();
-                    String material = nbt.getString(head + "_material").toString();
+                    String head = nbt.getString("single/head");
+                    String material = nbt.getString(head + "_material");
                     if (BLUE_SKIES_MATERIALS_SET.contains(material.substring(material.lastIndexOf("/")+1))) {
                         return false;
                     }
                     return true;
                 case "tetra:modular_sword":
-                    String blade = nbt.get("sword/blade").toString();
-                    String blade_material = nbt.getString(blade + "_material").toString();
+                    String blade = nbt.getString("sword/blade");
+                    String blade_material = nbt.getString(blade + "_material");
                     if (BLUE_SKIES_MATERIALS_SET.contains(blade_material.substring(blade_material.lastIndexOf("/")+1))) {
                         return false;
                     }
