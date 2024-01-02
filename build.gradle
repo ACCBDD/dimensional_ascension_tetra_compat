@@ -94,7 +94,7 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 repositories {
     // Put repositories for dependencies here
     flatDir {
-        dirs "C:\\Users\\harris\\Documents\\Development\\libs"
+        dirs "LIBRARY PATH HERE"
     }
 }
 
