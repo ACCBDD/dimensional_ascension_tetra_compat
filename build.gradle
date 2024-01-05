@@ -5,7 +5,7 @@ plugins {
     id 'org.spongepowered.mixin' version '0.7.+'
 }
 
-version = '1.3.0.0'
+version = '1.3.0.1'
 group = 'com.accbdd.dimasctetracompat' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'dimasctetracompat'
 
@@ -94,7 +94,7 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 repositories {
     // Put repositories for dependencies here
     flatDir {
-        dirs "LIBRARY PATH HERE"
+        dirs "C:\\Users\\harris\\Documents\\Development\\libs"
     }
 }
 

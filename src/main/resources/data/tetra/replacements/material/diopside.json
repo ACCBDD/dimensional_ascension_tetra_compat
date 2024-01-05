@@ -1,56 +1,56 @@
 [
     {
         "predicate": {
-            "items": [ "blue_skies:dusk_sword" ]
+            "items": [ "blue_skies:diopside_sword" ]
         },
         "item": "tetra:modular_sword",
         "modules": {
-            "sword/blade": [ "sword/basic_blade", "basic_blade/dusk" ],
+            "sword/blade": [ "sword/basic_blade", "basic_blade/diopside" ],
             "sword/hilt": [ "sword/basic_hilt", "basic_hilt/stick" ],
-            "sword/pommel": [ "sword/decorative_pommel", "decorative_pommel/dusk" ],
-            "sword/guard": [ "sword/makeshift_guard", "makeshift_guard/dusk" ]
+            "sword/pommel": [ "sword/decorative_pommel", "decorative_pommel/diopside" ],
+            "sword/guard": [ "sword/makeshift_guard", "makeshift_guard/diopside" ]
         }
     },
     {
         "predicate": {
-            "items": [ "blue_skies:dusk_shovel" ]
+            "items": [ "blue_skies:diopside_shovel" ]
         },
         "item": "tetra:modular_single",
         "modules": {
-            "single/head": [ "single/basic_shovel", "basic_shovel/dusk" ],
+            "single/head": [ "single/basic_shovel", "basic_shovel/diopside" ],
             "single/handle": [ "single/basic_handle", "basic_handle/stick" ]
         }
     },
     {
         "predicate": {
-            "items": [ "blue_skies:dusk_pickaxe" ]
+            "items": [ "blue_skies:diopside_pickaxe" ]
         },
         "item": "tetra:modular_double",
         "modules": {
-            "double/head_left": [ "double/basic_pickaxe_left", "basic_pickaxe/dusk" ],
-            "double/head_right": [ "double/basic_pickaxe_right", "basic_pickaxe/dusk" ],
+            "double/head_left": [ "double/basic_pickaxe_left", "basic_pickaxe/diopside" ],
+            "double/head_right": [ "double/basic_pickaxe_right", "basic_pickaxe/diopside" ],
             "double/handle": [ "double/basic_handle", "basic_handle/stick" ]
         }
     },
     {
         "predicate": {
-            "items": [ "blue_skies:dusk_hoe" ]
+            "items": [ "blue_skies:diopside_hoe" ]
         },
         "item": "tetra:modular_double",
         "modules": {
-            "double/head_left": [ "double/hoe_left", "hoe/dusk" ],
-            "double/head_right": [ "double/butt_right", "butt/dusk" ],
+            "double/head_left": [ "double/hoe_left", "hoe/diopside" ],
+            "double/head_right": [ "double/butt_right", "butt/diopside" ],
             "double/handle": [ "double/basic_handle", "basic_handle/stick" ]
         }
     },
     {
         "predicate": {
-            "items": [ "blue_skies:dusk_axe" ]
+            "items": [ "blue_skies:diopside_axe" ]
         },
         "item": "tetra:modular_double",
         "modules": {
-            "double/head_left": [ "double/basic_axe_left", "basic_axe/dusk" ],
-            "double/head_right": [ "double/butt_right", "butt/dusk" ],
+            "double/head_left": [ "double/basic_axe_left", "basic_axe/diopside" ],
+            "double/head_right": [ "double/butt_right", "butt/diopside" ],
             "double/handle": [ "double/basic_handle", "basic_handle/stick" ]
         }
     }
