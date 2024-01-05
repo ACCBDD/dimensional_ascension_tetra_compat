@@ -1,5 +1,5 @@
 {
-    "key": "cherry",
+    "key": "comet",
     "category": "wood",
     "primary": 3,
     "secondary": 1.7,
@@ -19,7 +19,7 @@
         "wooden"
     ],
     "material": {
-        "items": [ "blue_skies:cherry_planks" ]
+        "items": [ "blue_skies:comet_planks" ]
     },
     "requiredTools": {
         "axe_dig": "minecraft:gold"
