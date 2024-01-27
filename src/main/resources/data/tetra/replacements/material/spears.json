@@ -68,6 +68,5 @@
             "single/head": [ "single/spearhead", "spearhead/moonstone" ],
             "single/handle": [ "single/light_handle", "light_handle/cherry" ]
         }
-    },
-
+    }
 ]
