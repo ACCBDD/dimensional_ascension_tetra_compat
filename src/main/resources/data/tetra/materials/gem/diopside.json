@@ -19,7 +19,7 @@
         "default"
     ],
     "material": {
-        "items": [ "blue_skies:diopside" ]
+        "items": [ "blue_skies:diopside_gem" ]
     },
     "requiredTools": {
         "hammer_dig": "minecraft:stone"
