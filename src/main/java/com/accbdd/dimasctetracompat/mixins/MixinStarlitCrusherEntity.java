@@ -28,6 +28,7 @@ public abstract class MixinStarlitCrusherEntity extends SkiesBossEntity {
         if (source.getEntity() instanceof LivingEntity) {
             ItemStack stack = ((LivingEntity)source.getEntity()).getMainHandItem();
             if(ForgeRegistries.ITEMS.getKey(stack.getItem()).toString().equals("tetra:modular_double")) {
+                DimensionalAscension.LOGGER.info("MODULAR DOUBLE DETECTED");
                 if (stack.canPerformAction(ToolAction.get("axe_dig")))
                     cir.setReturnValue(super.hurt(source, amount));
                 DimensionalAscension.LOGGER.info(ToolAction.getActions().toString());
