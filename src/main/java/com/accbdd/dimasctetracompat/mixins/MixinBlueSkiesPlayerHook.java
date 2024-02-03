@@ -1,4 +1,4 @@
-package com.accbdd.mixins;
+package com.accbdd.dimasctetracompat.mixins;
 
 import java.util.HashSet;
 import java.util.Set;

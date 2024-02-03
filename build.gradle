@@ -92,9 +92,8 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
-    // Put repositories for dependencies here
-    flatDir {
-        dirs "C:\\Users\\harris\\Documents\\Development\\libs"
+    maven {
+        url "https://cursemaven.com"
     }
 }
 
@@ -102,7 +101,11 @@ dependencies {
     minecraft 'net.minecraftforge:forge:1.19.2-43.3.0'
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 
-    compileOnly fg.deobf('com.legacy.blue_skies:blue_skies:1.19.2-1.3.20')
+    implementation fg.deobf("curse.maven:tetra-289712:4941337")
+    implementation fg.deobf("curse.maven:blueskies-312918:3966273")
+
+    implementation fg.deobf("curse.maven:mutil-351914:4941248")
+    implementation fg.deobf("curse.maven:structuregel-378802:4765558")
 }
 
 mixin {
