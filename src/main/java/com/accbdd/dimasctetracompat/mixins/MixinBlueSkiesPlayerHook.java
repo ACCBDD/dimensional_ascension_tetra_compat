@@ -25,7 +25,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 @Mixin(PlayerHooks.class)
 public class MixinBlueSkiesPlayerHook {
 
-    private static final Set<Item> NERFED_ITEMS_CACHE = new HashSet<Item>();
+    private static final Set<Item> NERFED_ITEMS_CACHE = new HashSet<>();
     private static final String[] NERFABLE_ITEM_NAMES = new String[]{"axe", "pickaxe", "shovel", "hoe", "hammer", "mattock", "pickadze", "excavator", "kama", "scythe", "sword", "dagger", "cleaver", "rapier", "saber", "scabbard", "scimitar", "shortsword", "greatsword", "katana", "spear"};
 
     private static final List<? extends String> BLUE_SKIES_MATERIALS = DimensionalAscensionConfig.BLUE_SKIES_MATERIALS.get();
