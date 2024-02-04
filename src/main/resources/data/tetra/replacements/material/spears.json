@@ -61,12 +61,12 @@
     },
     {
         "predicate": {
-            "items": [ "blue_skies:cherry_spear" ]
+            "items": [ "blue_skies:comet_spear" ]
         },
         "item": "tetra:modular_single",
         "modules": {
             "single/head": [ "single/spearhead", "spearhead/moonstone" ],
-            "single/handle": [ "single/light_handle", "light_handle/cherry" ]
+            "single/handle": [ "single/light_handle", "light_handle/comet" ]
         }
     }
 ]
