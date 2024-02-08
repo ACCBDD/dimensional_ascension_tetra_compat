@@ -21,6 +21,8 @@ import net.minecraft.world.item.TieredItem;
 import net.minecraft.world.item.Tiers;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.registries.ForgeRegistries;
+import se.mickelus.tetra.effect.ItemEffect;
+import se.mickelus.tetra.items.modular.ModularItem;
 
 @Mixin(PlayerHooks.class)
 public class MixinBlueSkiesPlayerHook {
@@ -31,6 +33,10 @@ public class MixinBlueSkiesPlayerHook {
     private static final List<? extends String> BLUE_SKIES_MATERIALS = DimensionalAscensionConfig.BLUE_SKIES_MATERIALS.get();
     private static final Set<String> BLUE_SKIES_MATERIALS_SET = new HashSet<>(BLUE_SKIES_MATERIALS);
 
+    /**
+     * @author ACCBDD
+     * @reason uncancellable event, sorry devs!
+     */
     @Overwrite(remap = false)
     public static synchronized boolean isNerfableTool(@Nullable ItemStack stack, @Nullable BlockState state) {
         if (stack == null) {
@@ -44,35 +50,10 @@ public class MixinBlueSkiesPlayerHook {
         if (registryName != null && "blue_skies".equals(registryName.getNamespace())) {
             return false;
         } else if (registryName != null && "tetra".equals(registryName.getNamespace())) {
-            CompoundTag nbt = (CompoundTag) stack.serializeNBT().get("tag");
-            switch (registryName.toString()) {
-                case "tetra:modular_double":
-                    String right_head = nbt.getString("double/head_right");                    
-                    String right_material = nbt.getString(right_head + "_material");
-                    if (BLUE_SKIES_MATERIALS_SET.contains(right_material.substring(right_material.lastIndexOf("/")+1))) {
-                        return false;
-                    }
-
-                    String left_head = nbt.getString("double/head_left");
-                    String left_material = nbt.getString(left_head + "_material");
-                    if (BLUE_SKIES_MATERIALS_SET.contains(left_material.substring(left_material.lastIndexOf("/")+1))) {
-                        return false;
-                    }
-                    return true;
-                case "tetra:modular_single":
-                    String head = nbt.getString("single/head");
-                    String material = nbt.getString(head + "_material");
-                    if (BLUE_SKIES_MATERIALS_SET.contains(material.substring(material.lastIndexOf("/")+1))) {
-                        return false;
-                    }
-                    return true;
-                case "tetra:modular_sword":
-                    String blade = nbt.getString("sword/blade");
-                    String blade_material = nbt.getString(blade + "_material");
-                    if (BLUE_SKIES_MATERIALS_SET.contains(blade_material.substring(blade_material.lastIndexOf("/")+1))) {
-                        return false;
-                    }
-                    return true;
+            if (stack.getItem() instanceof ModularItem modularItem) {
+                if (modularItem.getEffectLevel(stack, ItemEffect.get("dimasctetracompat:horizoned")) > 0) {
+                    return false;
+                }
             }
         } else if (registryName == null) {
             return true;

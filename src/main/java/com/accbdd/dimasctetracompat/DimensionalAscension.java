@@ -1,5 +1,7 @@
 package com.accbdd.dimasctetracompat;
 
+import com.accbdd.dimasctetracompat.effects.FairweatherEffect;
+import com.accbdd.dimasctetracompat.effects.HorizonedEffect;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -26,5 +28,9 @@ public class DimensionalAscension
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        //register effects
+        MinecraftForge.EVENT_BUS.register(new HorizonedEffect());
+        MinecraftForge.EVENT_BUS.register(new FairweatherEffect());
     }
 }
