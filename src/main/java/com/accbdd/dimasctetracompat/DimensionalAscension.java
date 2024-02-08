@@ -23,9 +23,6 @@ public class DimensionalAscension
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        //register config
-        ModLoadingContext.get().registerConfig(Type.COMMON, DimensionalAscensionConfig.COMMON_CONFIG);
-
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 

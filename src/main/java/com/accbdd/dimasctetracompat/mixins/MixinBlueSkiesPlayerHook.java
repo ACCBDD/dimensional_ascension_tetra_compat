@@ -9,7 +9,6 @@ import javax.annotation.Nullable;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 
-import com.accbdd.dimasctetracompat.DimensionalAscensionConfig;
 import com.legacy.blue_skies.asm_hooks.PlayerHooks;
 
 import net.minecraft.resources.ResourceLocation;
@@ -28,9 +27,6 @@ public class MixinBlueSkiesPlayerHook {
 
     private static final Set<Item> NERFED_ITEMS_CACHE = new HashSet<>();
     private static final String[] NERFABLE_ITEM_NAMES = new String[]{"axe", "pickaxe", "shovel", "hoe", "hammer", "mattock", "pickadze", "excavator", "kama", "scythe", "sword", "dagger", "cleaver", "rapier", "saber", "scabbard", "scimitar", "shortsword", "greatsword", "katana", "spear"};
-
-    private static final List<? extends String> BLUE_SKIES_MATERIALS = DimensionalAscensionConfig.BLUE_SKIES_MATERIALS.get();
-    private static final Set<String> BLUE_SKIES_MATERIALS_SET = new HashSet<>(BLUE_SKIES_MATERIALS);
 
     /**
      * @author ACCBDD
