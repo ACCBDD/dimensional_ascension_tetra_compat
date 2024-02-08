@@ -9,6 +9,9 @@
             "sword/hilt": [ "sword/basic_hilt", "basic_hilt/stick" ],
             "sword/pommel": [ "sword/decorative_pommel", "decorative_pommel/maple" ],
             "sword/guard": [ "sword/makeshift_guard", "makeshift_guard/maple" ]
+        },
+        "improvements": {
+            "sword/blade:dimasctetracompat/fairweather": 0
         }
     },
     {
@@ -19,6 +22,9 @@
         "modules": {
             "single/head": [ "single/basic_shovel", "basic_shovel/maple" ],
             "single/handle": [ "single/basic_handle", "basic_handle/stick" ]
+        },
+        "improvements": {
+            "single/head:dimasctetracompat/fairweather": 0
         }
     },
     {
@@ -30,6 +36,10 @@
             "double/head_left": [ "double/basic_pickaxe_left", "basic_pickaxe/maple" ],
             "double/head_right": [ "double/basic_pickaxe_right", "basic_pickaxe/maple" ],
             "double/handle": [ "double/basic_handle", "basic_handle/stick" ]
+        },
+        "improvements": {
+            "double/head_left:dimasctetracompat/fairweather": 0,
+            "double/head_right:dimasctetracompat/fairweather": 0
         }
     },
     {
@@ -41,6 +51,10 @@
             "double/head_left": [ "double/hoe_left", "hoe/maple" ],
             "double/head_right": [ "double/butt_right", "butt/maple" ],
             "double/handle": [ "double/basic_handle", "basic_handle/stick" ]
+        },
+        "improvements": {
+            "double/head_left:dimasctetracompat/fairweather": 0,
+            "double/head_right:dimasctetracompat/fairweather": 0
         }
     },
     {
@@ -52,6 +66,10 @@
             "double/head_left": [ "double/basic_axe_left", "basic_axe/maple" ],
             "double/head_right": [ "double/butt_right", "butt/maple" ],
             "double/handle": [ "double/basic_handle", "basic_handle/stick" ]
+        },
+        "improvements": {
+            "double/head_left:dimasctetracompat/fairweather": 0,
+            "double/head_right:dimasctetracompat/fairweather": 0
         }
     }
 ]
