@@ -1,5 +1,7 @@
 package com.accbdd.dimasctetracompat.effects;
 
+import com.legacy.blue_skies.network.PacketHandler;
+import com.legacy.blue_skies.network.s_to_c.SpawnParticlePacket;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.Container;
@@ -53,6 +55,7 @@ public class HorizonedEffect {
                             ItemStack smeltedStack = recipe.get().getResultItem();
                             smeltedStack.setCount(drop.getCount());
                             Block.popResource(level, pos, smeltedStack);
+                            PacketHandler.sendToAllClients(new SpawnParticlePacket((byte)0, pos), level);
                         } else {
                             Block.popResource(level, pos, drop);
                         }
