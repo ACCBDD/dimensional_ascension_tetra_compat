@@ -9,6 +9,10 @@
             "sword/hilt": [ "sword/basic_hilt", "basic_hilt/stick" ],
             "sword/pommel": [ "sword/decorative_pommel", "decorative_pommel/horizonite" ],
             "sword/guard": [ "sword/makeshift_guard", "makeshift_guard/horizonite" ]
+        },
+        "improvements": {
+            "sword/blade:dimasctetracompat/fairweather": 0,
+            "sword/blade:dimasctetracompat/horizoned": 0
         }
     },
     {
@@ -19,6 +23,10 @@
         "modules": {
             "single/head": [ "single/basic_shovel", "basic_shovel/horizonite" ],
             "single/handle": [ "single/basic_handle", "basic_handle/stick" ]
+        },
+        "improvements": {
+            "single/head:dimasctetracompat/fairweather": 0,
+            "single/head:dimasctetracompat/horizoned": 0
         }
     },
     {
@@ -30,6 +38,12 @@
             "double/head_left": [ "double/basic_pickaxe_left", "basic_pickaxe/horizonite" ],
             "double/head_right": [ "double/basic_pickaxe_right", "basic_pickaxe/horizonite" ],
             "double/handle": [ "double/basic_handle", "basic_handle/stick" ]
+        },
+        "improvements": {
+            "double/head_left:dimasctetracompat/fairweather": 0,
+            "double/head_right:dimasctetracompat/fairweather": 0,
+            "double/head_left:dimasctetracompat/horizoned": 0,
+            "double/head_right:dimasctetracompat/horizoned": 0
         }
     },
     {
@@ -41,6 +55,12 @@
             "double/head_left": [ "double/hoe_left", "hoe/horizonite" ],
             "double/head_right": [ "double/butt_right", "butt/horizonite" ],
             "double/handle": [ "double/basic_handle", "basic_handle/stick" ]
+        },
+        "improvements": {
+            "double/head_left:dimasctetracompat/fairweather": 0,
+            "double/head_right:dimasctetracompat/fairweather": 0,
+            "double/head_left:dimasctetracompat/horizoned": 0,
+            "double/head_right:dimasctetracompat/horizoned": 0
         }
     },
     {
@@ -52,6 +72,12 @@
             "double/head_left": [ "double/basic_axe_left", "basic_axe/horizonite" ],
             "double/head_right": [ "double/butt_right", "butt/horizonite" ],
             "double/handle": [ "double/basic_handle", "basic_handle/stick" ]
+        },
+        "improvements": {
+            "double/head_left:dimasctetracompat/fairweather": 0,
+            "double/head_right:dimasctetracompat/fairweather": 0,
+            "double/head_left:dimasctetracompat/horizoned": 0,
+            "double/head_right:dimasctetracompat/horizoned": 0
         }
     }
 ]

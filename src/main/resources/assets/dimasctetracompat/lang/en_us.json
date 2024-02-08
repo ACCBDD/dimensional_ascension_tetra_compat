@@ -32,5 +32,10 @@
     "tetra.material.dusk": "Dusk",
     "tetra.material.dusk.prefix": "Dusk",
     "tetra.material.cherry": "Cherry",
-    "tetra.material.cherry.prefix": "Cherry"
+    "tetra.material.cherry.prefix": "Cherry",
+
+    "tetra.improvement.dimasctetracompat/horizoned.name": "Horizoned",
+    "tetra.improvement.dimasctetracompat/horizoned.description": "Auto-smelt blocks that the tool is effective on",
+    "tetra.improvement.dimasctetracompat/fairweather.name": "Fairweather",
+    "tetra.improvement.dimasctetracompat/fairweather.description": "This tool is effective when used in the Everbright and Everdawn"
 }

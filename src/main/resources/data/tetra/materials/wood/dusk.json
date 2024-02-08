@@ -10,6 +10,9 @@
     "magicCapacity": 90,
     "toolLevel": "minecraft:stone",
     "toolEfficiency": 2,
+    "improvements": {
+        "dimasctetracompat/fairweather": 0
+    },
     "tints": {
         "glyph": "563363",
         "texture": "563363"

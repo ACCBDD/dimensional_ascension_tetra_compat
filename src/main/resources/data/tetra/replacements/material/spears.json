@@ -7,6 +7,10 @@
         "modules": {
             "single/head": [ "single/spearhead", "spearhead/moonstone" ],
             "single/handle": [ "single/light_handle", "light_handle/bluebright" ]
+        },
+        "improvements": {
+            "single/head:dimasctetracompat/fairweather": 0,
+            "single/handle:dimasctetracompat/fairweather": 0
         }
     },
     {
@@ -17,6 +21,10 @@
         "modules": {
             "single/head": [ "single/spearhead", "spearhead/moonstone" ],
             "single/handle": [ "single/light_handle", "light_handle/starlit" ]
+        },
+        "improvements": {
+            "single/head:dimasctetracompat/fairweather": 0,
+            "single/handle:dimasctetracompat/fairweather": 0
         }
     },
     {
@@ -27,6 +35,10 @@
         "modules": {
             "single/head": [ "single/spearhead", "spearhead/moonstone" ],
             "single/handle": [ "single/light_handle", "light_handle/frostbright" ]
+        },
+        "improvements": {
+            "single/head:dimasctetracompat/fairweather": 0,
+            "single/handle:dimasctetracompat/fairweather": 0
         }
     },
     {
@@ -37,6 +49,10 @@
         "modules": {
             "single/head": [ "single/spearhead", "spearhead/moonstone" ],
             "single/handle": [ "single/light_handle", "light_handle/lunar_wood" ]
+        },
+        "improvements": {
+            "single/head:dimasctetracompat/fairweather": 0,
+            "single/handle:dimasctetracompat/fairweather": 0
         }
     },
     {
@@ -47,6 +63,10 @@
         "modules": {
             "single/head": [ "single/spearhead", "spearhead/moonstone" ],
             "single/handle": [ "single/light_handle", "light_handle/dusk" ]
+        },
+        "improvements": {
+            "single/head:dimasctetracompat/fairweather": 0,
+            "single/handle:dimasctetracompat/fairweather": 0
         }
     },
     {
@@ -57,6 +77,10 @@
         "modules": {
             "single/head": [ "single/spearhead", "spearhead/moonstone" ],
             "single/handle": [ "single/light_handle", "light_handle/maple" ]
+        },
+        "improvements": {
+            "single/head:dimasctetracompat/fairweather": 0,
+            "single/handle:dimasctetracompat/fairweather": 0
         }
     },
     {
@@ -67,6 +91,10 @@
         "modules": {
             "single/head": [ "single/spearhead", "spearhead/moonstone" ],
             "single/handle": [ "single/light_handle", "light_handle/cherry" ]
+        },
+        "improvements": {
+            "single/head:dimasctetracompat/fairweather": 0,
+            "single/handle:dimasctetracompat/fairweather": 0
         }
     }
 ]

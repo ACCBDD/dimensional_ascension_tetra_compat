@@ -1,11 +1,9 @@
 package com.accbdd.dimasctetracompat;
 
+import com.accbdd.dimasctetracompat.effects.FairweatherEffect;
+import com.accbdd.dimasctetracompat.effects.HorizonedEffect;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.config.ModConfig.Type;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,12 +17,11 @@ public class DimensionalAscension
 
     public DimensionalAscension()
     {
-        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-
-        //register config
-        ModLoadingContext.get().registerConfig(Type.COMMON, DimensionalAscensionConfig.COMMON_CONFIG);
-
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        //register effects
+        MinecraftForge.EVENT_BUS.register(new HorizonedEffect());
+        MinecraftForge.EVENT_BUS.register(new FairweatherEffect());
     }
 }
