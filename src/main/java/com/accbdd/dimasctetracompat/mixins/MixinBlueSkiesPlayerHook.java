@@ -12,7 +12,6 @@ import org.spongepowered.asm.mixin.Overwrite;
 import com.accbdd.dimasctetracompat.DimensionalAscensionConfig;
 import com.legacy.blue_skies.asm_hooks.PlayerHooks;
 
-import net.minecraft.nbt.CompoundTag;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;

@@ -1,6 +1,5 @@
 package com.accbdd.dimasctetracompat.effects;
 
-import com.accbdd.dimasctetracompat.DimensionalAscension;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.Container;
